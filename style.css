@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(IT.jpg);
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding-top: 55px;
+}
+
+.box {
+    padding: 20px;
+    margin: 20px;
+    background: gainsboro;
+    border: 1px solid gray;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#info {
+    display: flex;
+}
+
+.info_about {
+    padding: 30px;
+}
+
+#img {
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.box p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.box h1 {
+    text-align: center;
+}
+
+.box a {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-right: 10px solid gray;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 8px;
+}
+
+a:hover {
+    color: blue;
+    background: gray;
+}
+
+.box ul {
+    text-align: center;
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    width: 100%;
+}
+
+.nav li {
+    list-style: none;
+    width: 25%;
+    text-align: center;
+
+}
+
+.nav li {
+    border: 1px solid black;
+    background-color: rgb(184, 192, 192);
+    font-size: 1.5rem;
+    padding: 20px;
+}
+
+.nav {
+    position: fixed;
+    top: o;
+    left: 0;
+    right: 0;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    font-size: 0.7rem;
+    padding: 5px;
+    text-align: center;
+}
